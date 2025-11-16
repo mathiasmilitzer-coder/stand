@@ -1,1 +1,51 @@
-
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meine Erste Flask App</title>
+<style>
+body {
+font-family: sans-serif;
+text-align: center;
+background-color: #f4f4f9;
+padding: 50px;
+}
+.container {
+background-color: #ffffff;
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+max-width: 600px;
+margin: 0 auto;
+}
+h1 {
+color: #4a4a4a;
+}
+p {
+color: #6a6a6a;
+}
+.button {
+display: inline-block;
+margin-top: 20px;
+padding: 10px 20px;
+background-color: #007bff;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+transition: background-color 0.3s;
+}
+.button:hover {
+background-color: #0056b3;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Willkommen bei meiner Flask-Anwendung!</h1>
+<p>Diese Seite wird über das Template-System von Flask (Jinja2) gerendert.</p>
+<p>Der Python-Code in app.py hat erfolgreich die Datei index.html gefunden und angezeigt.</p>
+<a href="https://flask.palletsprojects.com/" target="_blank" class="button">Mehr über Flask erfahren</a>
+</div>
+</body>
+</html>
